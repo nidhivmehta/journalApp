@@ -14,7 +14,7 @@
         </file>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>journalApp-%d{yy-MM-dd_HH-MM}.%i.log</fileNamePattern>
-            <maxFileSize>10MB</maxFileSize>
+            <maxFileSize>100GB</maxFileSize>
             <maxHistory>10</maxHistory>
 
         </rollingPolicy>
